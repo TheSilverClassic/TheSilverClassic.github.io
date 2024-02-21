@@ -3,13 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #0d1117; /* GitHub dark mode background color */
-    color: #c9d1d9; /* Light text color for contrast */
+    background: #0d1117;
+    color: #c9d1d9;
 }
 
 header {
-    background: #161b22; /* Slightly darker background for the header */
-    color: #58a6ff; /* GitHub accent color */
+    background: #161b22;
+    color: #58a6ff;
     padding: 1rem 0;
     text-align: center;
 }
@@ -21,16 +21,16 @@ header h1 {
 section {
     padding: 20px;
     margin: 20px;
-    background: #21262d; /* Slightly lighter background for sections */
-    border-radius: 6px; /* Rounded corners for sections */
+    background: #21262d;
+    border-radius: 6px;
 }
 
 h2 {
-    color: #58a6ff; /* GitHub accent color for headings */
+    color: #58a6ff;
 }
 
 ul {
-    list-style-type: none; /* Removes default list styling */
+    list-style-type: none;
     padding: 0;
 }
 
@@ -39,15 +39,14 @@ li {
 }
 
 a {
-    color: #58a6ff; /* GitHub accent color for links */
-    text-decoration: none; /* Removes underline from links */
+    color: #58a6ff;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Adds underline on hover for links */
+    text-decoration: underline;
 }
 
-/* Responsive design for smaller screens */
 @media screen and (max-width: 600px) {
     header h1, section {
         padding-left: 10px;
